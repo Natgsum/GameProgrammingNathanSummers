@@ -1,5 +1,30 @@
 # CameraLockTutorial
- Game Programming module tutorial 
+This shows tutorial shows how to make a camera lockon to an object
+## 1. Create a new scene
+To begin this tutorial start by creating a new scene and name it `CameraLockOn`.
+
+Create a 3D Cube and name it `Player`.
+
+Repeat the above again and name this Cube `Enemy`.
+
+Create a `Material` and name it `Green`. Then select the Material and change the `Albedo` to `Green`.
+
+Repeat this step again and name this material `Red` and change its `Albedo` to `Red`.
+
+Drag the `Green` material onto the `Player` Cube, and the `Red` material onto the `Enemy` Cube.
+
+## 2. Create script
+
+Create a new script called `LockOn` and drag it onto the `Main Camera`.
+
+In this script we will make the Main Camera lock on and off of onto the nearest Enemy Cube 
+
+
+
+
+
+
+
 
 using System.Collections;
 using System.Collections.Generic;
