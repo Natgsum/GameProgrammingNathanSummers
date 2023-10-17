@@ -1,4 +1,4 @@
-# CameraLockTutorial
+# Camera Lock Tutorial
 This shows tutorial shows how to make a camera lockon to an object
 ## 1. Create a new scene
 To begin this tutorial start by creating a new scene.
