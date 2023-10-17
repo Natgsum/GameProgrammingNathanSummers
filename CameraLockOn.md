@@ -1,7 +1,7 @@
 # CameraLockTutorial
 This shows tutorial shows how to make a camera lockon to an object
 ## 1. Create a new scene
-To begin this tutorial start by creating a new scene and name it `CameraLockOn`.
+To begin this tutorial start by creating a new scene.
 
 Create a 3D Cube and name it `Player`.
 
@@ -208,7 +208,7 @@ Make a `float` called `currentDistance` and set it to the difference. This will 
 
     float currentDistance = difference.magnitude;
 
-Make an `if` statement to see wether the `currentDistance` is `< distance`. This will allows us to find out if one enemy object is closer than the current closest enemy object.
+Make an `if` statement to see whether the `currentDistance` is `< distance`. This will allows us to find out if one enemy object is closer than the current closest enemy object.
 
     if (currentDistance < distance)
     {
