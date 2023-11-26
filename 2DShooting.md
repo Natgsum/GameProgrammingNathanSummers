@@ -50,3 +50,18 @@ Add a `Rigidbody 2D` and set `Gravity Scale` to `0` and then add a `Circle Colli
 
 We can now delete the bullet in the scene and drag our bullet prefab onto our Players `Bullet Prefab` on the `Shoot` script
 
+Now select our `Bullet` prefab in the assets folder and create a `script` called `Bullet`. In this script we will give the bullet a velocity when instantiated.
+
+To start, make a `public float` called speed. and a `private Rigidbody2D` called rb.
+
+    public float speed;
+    private Rigidbody2D rb;
+
+Then inside `void Start()` we will get the rigidbody of the bullet using `GetComponent` 
+
+    rb = GetComponent<Rigidbody2D>();
+
+Then set the `velocity` of `rb` to be the float `speed` multiplied by `transform.right`.
+
+    rb.velocity = transform.right * speed;
+
