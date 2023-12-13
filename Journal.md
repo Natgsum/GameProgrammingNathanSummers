@@ -25,3 +25,7 @@ Mouse kept going off the screen when trying to move the camera around, fixed by 
 # Date
 
 Didn't know how to show int on UI, fixed by using ToString()
+
+# Date
+
+used local rotation instead of rotation
